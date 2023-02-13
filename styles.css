@@ -1,0 +1,68 @@
+body {
+    background-color: #F55050;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Cheri;
+    src: url(/fonts/CHERL___.TTF);
+}
+
+@font-face {
+    font-family: Love-Letters;
+    src: url(/fonts/Love\ Letters.ttf);
+}
+
+@font-face {
+    font-family: Bigdey;
+    src: url(/fonts/Bigdey\ Demo.ttf);
+}
+
+.greeting {
+    font-family: Cheri;
+    font-size: 4vw;
+}
+
+#question {
+    font-family: Love-Letters;
+    font-size: 3vw;
+}
+
+.choc {
+    width: 20vw;
+    padding: 2vw;
+}
+
+#chocolates {
+    display: none;
+}
+
+.btn {
+    background: #E8D2A6;
+    background-image: -webkit-linear-gradient(top, #E8D2A6, #e3b352);
+    background-image: -moz-linear-gradient(top, #E8D2A6, #e3b352);
+    background-image: -ms-linear-gradient(top, #E8D2A6, #e3b352);
+    background-image: -o-linear-gradient(top, #E8D2A6, #e3b352);
+    background-image: linear-gradient(to bottom, #E8D2A6, #e3b352);
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 1.5vw;
+    font-family: Bigdey;
+    color: #03001C;
+    font-size: 2.5vw;
+    padding: 0.9vw 2vw 0vw 2vw;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+  
+.btn:hover {
+    color: #e3b352;
+    background: #F48484;
+    background-image: -webkit-linear-gradient(top, #F48484, #d43333);
+    background-image: -moz-linear-gradient(top, #F48484, #d43333);
+    background-image: -ms-linear-gradient(top, #F48484, #d43333);
+    background-image: -o-linear-gradient(top, #F48484, #d43333);
+    background-image: linear-gradient(to bottom, #F48484, #d43333);
+    text-decoration: none;
+}
