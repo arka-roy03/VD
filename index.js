@@ -30,7 +30,7 @@ function no() {
         window.location.replace("no.html");
         return false;
     }
-    let gif = "/gifs/no" + c + ".webp";
+    let gif = "gifs/no" + c + ".webp";
     document.getElementById("gif").src = gif;
     writeText(texts[c-1], 0);
 }
