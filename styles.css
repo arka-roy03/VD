@@ -5,17 +5,17 @@ body {
 
 @font-face {
     font-family: Cheri;
-    src: url(/fonts/CHERL___.TTF);
+    src: url(fonts/CHERL___.TTF);
 }
 
 @font-face {
     font-family: Love-Letters;
-    src: url(/fonts/Love\ Letters.ttf);
+    src: url(fonts/Love\ Letters.ttf);
 }
 
 @font-face {
     font-family: Bigdey;
-    src: url(/fonts/Bigdey\ Demo.ttf);
+    src: url(fonts/Bigdey\ Demo.ttf);
 }
 
 .greeting {
